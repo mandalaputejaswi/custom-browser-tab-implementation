@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.tablinks {
+  background-color: #f2f2f2;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: background-color 0.3s;
+}
+
+.active, .tablinks:active {
+    background-color: #666;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.add-tab {
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  float: left;
+  padding: 14px 16px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.tablinks.active {
+    display: block;
+}
+.browser {
+  margin-top: 20px;
+}
+
+.browser input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.browser button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.browser button:hover {
+  background-color: #45a049;
+}
+
+.close-tab {
+    background-color: transparent;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    margin-left: 15px;
+  }
+  
+  .close-tab:hover {
+    color: #555;
+  }
+
+  .add-tab {
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #ccc;
+  }
+  .add-tab:focus {
+    outline: 2px solid transparent;
+  }
